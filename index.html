@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Portfolió</title>
+</head>
+<body>
+  <div class="header">
+  <nav>
+    <a href="#welcome"><i class="fa-solid fa-house"></i></a>
+    <a href="#projects"><i class="fa-solid fa-list-check"></i></a>
+    <a href="#tech"><i class="fa-solid fa-code"></i></a>
+    <a href="#uses"><i class="fa-solid fa-laptop"></i></a>
+    <a href="#resume"><i class="fa-solid fa-envelope"></i></a>
+  </nav>
+</div>
+<a id="welcome"></a>
+  <div class="main content">
+    <div class="welcome">
+      <div class="profile-wrapper">
+        <img class="profile-pic" src="images/profile.jpg" alt="">
+        <div id="status-dot" class="status-dot"></div>
+      </div>
+      <h1>Helló! István vagyok,</h1>
+      <h2><span>FullStack Developer</span>.</h2>
+      <div class="welcome-contact"> 
+        <a href=""><div class="welcome-contact-btn"> <i class="fa-brands fa-linkedin"></i>LinkedIn</div></a> 
+        <a href=""><div class="welcome-contact-btn"><i class="fa-brands fa-github"></i>Github</div></a>
+        <a href="mailto:nagyistvn12@gmail.com?subject=Ajánlatkérés"><div class="welcome-contact-btn"> <i class="fa-regular fa-envelope"></i> E-mail</div></a> 
+      </div>
+    </div>
+    <hr id="projects" >
+    <h2>Projektjeim</h2>
+    <div class="project-container">
+      <a class="proj-link" target="_blank" href="https://github.com/istvan911/react_vite_blog_proj">
+      <div class="project-card">
+        <div class="project-content">
+          <h3 class="project-name"> Blog Frontend</h3>
+          <p class="project-details"> A szakdolgozatomhoz egy saját React + Vite alapú blog frontendet építettem, mert szerettem volna kipróbálni, milyen egy teljesen modern, gyors és reszponzív felületet létrehozni bármilyen CSS framework nélkül. Kifejezetten élveztem, hogy mindent én tervezhettem meg az elrendezéstől a stílusokig, így a végeredmény tényleg tükrözi a saját elképzeléseimet. Ha kíváncsi vagy a projektre, a GitHub-ra linkelt kártyán keresztül meg is nézheted. </p>
+          
+          <div class="project-icons">
+            <i class="devicon-react-original"></i>
+            <i class="devicon-vitejs-plain"></i>
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+          </div>
+          
+        </div>
+      </div>    
+      </a>
+
+      <a class="proj-link" target="_blank" href="https://github.com/istvan911/Music-App">
+      <div class="project-card">
+        <div class="project-content">
+          <h3 class="project-name"> Zenelejátszó alkalmazás</h3>
+          <p class="project-details"> Ezt a projektet azért kezdtem el, mert szerettem volna egy olyan zenekezelő alkalmazást, ami tényleg kézre áll és nem csak az alap funkciókat tudja. C#.NET-ben építettem fel, és az NAudio Library-re támaszkodtam a hangkezeléshez — majd adtam neki egy reszponzív, letisztult felületet, hogy élmény legyen használni. Idő közben rájöttem, mennyire jól jönnének plusz funkciók, ezért beépítettem a kedvencek lehetőségét és külön lejátszási listákat is. Így végül egy olyan alkalmazás lett belőle, ami nemcsak működik, hanem tényleg jól is esik használni.</p>
+          <div class="project-icons">
+            <i class="devicon-csharp-plain"></i>
+            <i class="devicon-dotnetcore-plain"></i>
+          </div>
+        </div>
+      </div>    
+      </a>
+
+      <a class="proj-link" target="_blank" href="https://github.com/istvan911/InventoryManagementSystem">
+      <div class="project-card">
+        <div class="project-content">
+          <h3 class="project-name"> Raktárkezelő rendszer</h3>
+          <p class="project-details">Ennél a projektnél egy C#.NET alapú asztali alkalmazás megvalósításába fogtam, mert szerettem volna egy olyan rendszert építeni, amelyben az adatkezelés tényleg átlátható és könnyen karbantartható. Az Entity Frameworköt használtam az MSSQL adatbázissal való kommunikációhoz, így a különféle műveletek — lekérdezés, módosítás, törlés — sokkal természetesebben illeszkednek a munkafolyamatba. A fejlesztés egyik legizgalmasabb része a rendeléshez kapcsolódó PDF-számla generátor volt: ehhez egy előnézeti nézetet is készítettem, hogy a felhasználó még mentés előtt láthassa, hogyan fog kinézni a kész számla. Ez a funkció kifejezetten sokat adott a projekt használhatóságához és összetettségéhez. </p>
+          <div class="project-icons">
+            <i class="devicon-csharp-plain"></i>
+            <i class="devicon-dotnetcore-plain"></i>
+            <i class="devicon-entityframeworkcore-plain"></i>
+            <i class="devicon-microsoftsqlserver-plain"></i>
+          </div>
+        </div>
+      </div>    
+      </a>
+
+      <a class="proj-link" target="_blank" href="https://github.com/istvan911/react_vite_blog_proj">
+      <div class="project-card">
+        <div class="project-content">
+          <h3 class="project-name"> Könyváruház API/Frontend</h3>
+          <p class="project-details"> Ezt a projektet azért kezdtem el, mert szerettem volna egy olyan könyváruház-API-t, ami egyszerre egyszerű, átlátható és könnyen bővíthető. Java-ban, Spring Boottal építettem fel, és külön figyelmet fordítottam arra, hogy a könyvek kezelése – a lekérdezéstől a létrehozáson át a módosításig és törlésig – tisztán, jól strukturált rétegekben történjen. Ahogy haladtam, egyre inkább látszott, mennyire fontos a rendezett architektúra, ezért folyamatosan finomítottam az endpointokon, a szolgáltatási rétegen és az adatkezelésen is, hogy minden átlátható és könnyen karbantartható maradjon. A tesztelés megkönnyítése érdekében, hozzáadtam egy egyszerű, Bootstrap frontendet is, hogy gyorsan és kényelmesen kipróbálhassam az API működését. Emellett beépítettem aspektusokat is, hogy automatikusan naplózzam az egyes műveleteket – így a rendszer nemcsak letisztult és bővíthető, hanem átláthatóan követhető és könnyen monitorozható is, akár automatizálva is. </p>
+          <div class="project-icons">
+            <i class="devicon-java-plain"></i>
+            <i class="devicon-spring-original"></i>
+            <i class="devicon-mysql-original"></i>
+            <i class="devicon-bootstrap-plain"></i>
+          </div>
+        </div>
+      </div>    
+      </a>
+      <div class="plus"> <a target="_blank" href="https://github.com/istvan911?tab=repositories"><div class="plus-btn">Továbbiak</div></a>  </div>
+
+    </div>
+    <hr id="tech">
+    <h2>Használt technológiák</h2> 
+    <div class="card-container">
+  <div class="card">
+    <div class="icon"><i class="devicon-java-plain"></i></div>
+    <div class="label">Java</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-spring-original"></i></div>
+    <div class="label">Spring</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-mysql-original"></i></div>
+    <div class="label">MySQL</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-csharp-plain"></i></div>
+    <div class="label">C#</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-dotnetcore-plain"></i></div>
+    <div class="label">.NET</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-microsoftsqlserver-plain"></i></div>
+    <div class="label">MSSQL</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-python-plain"></i></div>
+    <div class="label">Python</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-javascript-plain"></i></div>
+    <div class="label">Vanilla JS</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-react-original"></i></div>
+    <div class="label">React</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-html5-plain"></i></div>
+    <div class="label">HTML</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-css3-plain"></i></div>
+    <div class="label">CSS</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-bootstrap-plain"></i></div>
+    <div class="label">Bootstrap</div>
+  </div>
+  <div class="card">
+    <div class="icon"><i class="devicon-git-plain"></i></div>
+    <div class="label">Git</div>
+  </div>
+  
+</div>
+  <hr id="uses">
+  <h2>Használt eszközök</h2>
+    <div class="card-container">
+      <div class="card">
+        <div class="icon"><i class="devicon-intellij-plain"></i></div>
+        <div class="label">IntelliJ IDEA</div>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="devicon-visualstudio-plain"></i></div>
+        <div class="label">Visual Studio</div>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="devicon-vscode-plain"></i></div>
+        <div class="label">Visual Studio Code</div>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="devicon-postman-plain"></i></div>
+        <div class="label">Postman</div>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="devicon-firefox-plain"></i></div>
+        <div class="label">Mozilla Firefox</div>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="devicon-chrome-plain"></i></div>
+        <div class="label">Google Chrome</div>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="devicon-figma-plain"></i></div>
+        <div class="label">Figma</div>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="devicon-trello-plain"></i></div>
+        <div class="label">Trello</div>
+      </div>
+    </div>
+    <hr id="resume">
+    <div class="resume">
+      <div class="resume-btn">CV letöltése</div>
+    </div>
+  </div>
+  <div class="footer content">
+    
+    <div class="copyright">
+        &copy; <span id="year"></span> Minden jog fentartva. Nagy István
+    </div>
+
+  </div>
+</body>
+<script src="/js/main.js"></script>
+</html>
